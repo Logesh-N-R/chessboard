@@ -5,8 +5,7 @@
 }
 
 body {
-background: rgb(34,193,195);
-background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(227,184,90,1) 100%);
+background-color: #ffd8cc;
 user-select: none;
 }
 
