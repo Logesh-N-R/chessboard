@@ -4,8 +4,8 @@
     border: 0px;
 }
 
-body {background: rgb(74,66,210);
-background: linear-gradient(90deg, rgba(74,66,210,1) 0%, rgba(167,90,173,1) 46%, rgba(134,123,246,1) 74%, rgba(0,212,255,1) 100%);
+body {
+    background: rgb(74,66,210);
     background-size: 100% 100vh;
     user-select: none;
 }
