@@ -5,9 +5,11 @@
 }
 
 body {
-    background-color: #a5c5ac;
-opacity: 1;
-background: linear-gradient(135deg, #4577f755 25%, transparent 25%) -15px 0/ 30px 30px, linear-gradient(225deg, #4577f7 25%, transparent 25%) -15px 0/ 30px 30px, linear-gradient(315deg, #4577f755 25%, transparent 25%) 0px 0/ 30px 30px, linear-gradient(45deg, #4577f7 25%, #a5c5ac 25%) 0px 0/ 30px 30px;
+    background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  repeating-linear-gradient(45deg, #444cf7 25%, transparent 25%, transparent 75%, #444cf7 75%, #444cf7), repeating-linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%, #e5e5f7 75%, #444cf7 75%, #444cf7);
+background-position: 0 0, 10px 10px;
+background-size: 20px 20px;
     background-size: 100% 100vh;
     user-select: none;
 }
