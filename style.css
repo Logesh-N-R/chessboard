@@ -5,7 +5,9 @@
 }
 
 body {
-    background: rgb(74,66,210);
+    background-color: #a5c5ac;
+opacity: 1;
+background: linear-gradient(135deg, #4577f755 25%, transparent 25%) -15px 0/ 30px 30px, linear-gradient(225deg, #4577f7 25%, transparent 25%) -15px 0/ 30px 30px, linear-gradient(315deg, #4577f755 25%, transparent 25%) 0px 0/ 30px 30px, linear-gradient(45deg, #4577f7 25%, #a5c5ac 25%) 0px 0/ 30px 30px;
     background-size: 100% 100vh;
     user-select: none;
 }
