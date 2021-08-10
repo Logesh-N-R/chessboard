@@ -4,8 +4,9 @@
     border: 0px;
 }
 
-body {
-background-color: #ffd8cc;
+body {background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(214,179,101,1) 100%);
+
 user-select: none;
 }
 
