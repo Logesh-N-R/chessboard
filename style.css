@@ -4,9 +4,9 @@
     border: 0px;
 }
 
-body {background: rgb(150,150,240);
+body {
+background: black;
 background: linear-gradient(90deg, rgba(150,150,240,1) 0%, rgba(135,181,199,1) 47%, rgba(89,221,249,1) 100%);
-
 user-select: none;
 }
 
