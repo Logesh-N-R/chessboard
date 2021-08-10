@@ -1,0 +1,221 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    background-image: url(pexels-gladson-xavier-59197.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    user-select: none;
+}
+
+.black_win,
+.white_win {
+    font-size: 60px;
+    position: fixed;
+    top: calc(50vh - 90px);
+    left: calc(50% - 250px);
+    text-transform: capitalize;
+    background: rgb(174, 177, 238);
+    background: radial-gradient(circle, rgba(174, 177, 238, 0.969625350140056) 0%, rgba(221, 148, 233, 1) 100%);
+    width: 400px;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: none;
+    z-index: 10;
+}
+
+.win_gif {
+    background-image: url(win.gif);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+}
+
+.pawn-change-b,
+.pawn-change-w {
+    position: fixed;
+    font-size: 83px;
+    text-align: center;
+    left: calc(50% - 125px);
+    top: calc(50vh - 140px);
+    cursor: pointer;
+}
+
+.pawn-change-b td:hover,
+.pawn-change-w td:hover {
+    transform: scale(1.02);
+    background: rgb(174, 177, 238);
+    background: radial-gradient(circle, rgba(174, 177, 238, 0.969625350140056) 0%, rgba(221, 148, 233, 1) 100%);
+}
+
+.pawn-change-b div,
+.pawn-change-w div {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-size: 18px;
+    text-transform: capitalize;
+    border: 1px solid black;
+}
+
+.pawn-change-b {
+    display: none;}
+
+.pawn-change-w {
+    display: none;
+}
+
+.pawn-change-b td,
+.pawn-change-w td {
+    width: 120px;
+    height: 120px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border-radius: 10px;
+}
+
+
+.buttons {
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.newgame {
+    position: fixed;
+    left: calc(50% - 80px);
+    bottom: 10px;
+    background-color: #9c4848;
+    color: white;
+    font-family: fantasy;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid white;
+    z-index: 15;
+}
+
+.newgame:hover {
+    background-color: orange;
+    color: #7b3737;
+    box-shadow: 0 0 10px gray;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: .5s all;
+    border: 1px solid white;
+}
+
+.newgame:hover a {
+    color: #7b3737;
+}
+
+.newgame a {
+    text-decoration: none;
+    color: white;
+}
+
+.newgame p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.container-board {
+    position: fixed;
+    top: calc(50vh - 400px);
+    left: calc(50% - 360px);
+    width: 720px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px 0px grey;
+    background-image: url(wooden-background_24972-623.jpg);
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+td {
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.black {
+    background-color: #b785859e;
+}
+
+.white {
+    background-color: #ffffffc9;
+}
+
+.black:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+
+.white:hover {
+    background-color: darksalmon;
+    cursor: pointer;
+}
+
+p {
+    font-size: 58px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 2px;
+}
+
+.warning,
+.warning-1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    opacity: 0;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px 0px grey;
+    border: 2px solid black;
+    position: fixed;
+    right: 10px;
+    bottom: 50vh;
+}
+
+#check {
+    font-size: 100px;
+    font-weight: bold;
+    padding: 40px 100px;
+    display: none;
+    transition: 5s all;
+    border-radius: 18px;
+    background-color: #fffe80c2;
+    box-shadow: 0 0 10px 0px grey;
+    border: 2px solid black;
+    position: fixed;
+    bottom: calc(50vh - 100px);
+    right: calc(50% - 290px);
+    color: #2b2a28;
+    text-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+/*
+.whiteMove {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 20px;
+	opacity: 0;
+	border-radius: 10px;
+	background-color: antiquewhite;
+	box-shadow: 0 0 10px 0px grey;
+	border: 2px solid black;
+	position: fixed;
+	right: 55%;
+	top: 0px;
+}
+*/
