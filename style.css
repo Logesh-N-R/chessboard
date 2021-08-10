@@ -33,6 +33,7 @@ user-select: none;
     height: 100vh;
     position: fixed;
     display: none;
+backgroung-repeat: no-repeat;
 }
 
 .pawn-change-b,
