@@ -5,8 +5,12 @@
 }
 
 body {
-background: #a68b8b url(wooden-background_24972-623.jpg) center center/cover repeat content-box;
-    user-select: none;
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  radial-gradient(#444cf7 1.75px, transparent 1.75px), radial-gradient(#444cf7 1.75px, #e5e5f7 1.75px);
+background-size: 70px 70px;
+background-position: 0 0,35px 35px;
+user-select: none;
 }
 
 .black_win,
